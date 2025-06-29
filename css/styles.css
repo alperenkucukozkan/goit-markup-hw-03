@@ -38,6 +38,7 @@ img {
 .header-div {
   padding: 24px 156px 24px 156px;
   margin: 0 auto;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-header {
@@ -222,8 +223,7 @@ img {
   width: calc(33.33%-24px);
   box-sizing: border-box;
   background-color: white;
-  border: 1px solid #e7e9fc;
-  border-radius: 1%;
+  border-bottom: 1px solid #e7e9fc;
 }
 .section4 li .header3 {
   margin-left: 16px;

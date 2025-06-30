@@ -3,6 +3,9 @@
 ::after {
   box-sizing: border-box;
 }
+* {
+  text-decoration: none !important;
+}
 
 body {
   margin: 0;
@@ -32,11 +35,11 @@ img {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1158px;
   margin: 0 auto;
 }
 .header-div {
-  padding: 24px 156px 24px 156px;
+  padding: 24px;
   margin: 0 auto;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -54,12 +57,14 @@ img {
   display: flex;
   gap: 40px;
   margin-left: 76px;
+  font-weight: medium;
 }
 
 .address {
   display: flex;
   gap: 40px;
   margin-left: 332px;
+  font-weight: normal;
 }
 
 .page-nav .link {
@@ -93,7 +98,7 @@ img {
 }
 
 .footer p {
-  width: 264px;
+  max-width: 264px;
   margin-top: 16px;
 }
 
@@ -148,7 +153,6 @@ img {
   flex-wrap: wrap;
   gap: 24px;
   align-self: center;
-  max-width: 1440px;
 }
 
 .section2 ul {
@@ -187,7 +191,6 @@ img {
 }
 
 .section3 li.team {
-  width: 264px;
   box-sizing: border-box;
   background-color: white;
 }
@@ -224,7 +227,8 @@ img {
   box-sizing: border-box;
   background-color: white;
   border-bottom: 1px solid #e7e9fc;
-  
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 .section4 li .header3 {
   margin-left: 16px;

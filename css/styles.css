@@ -38,6 +38,10 @@ img {
   max-width: 1158px;
   margin: 0 auto;
 }
+.container-1 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 .header-div {
   padding: 24px;
   margin: 0 auto;
@@ -117,7 +121,7 @@ img {
   text-align: center;
 }
 .header3 {
-  font-weight: 500;
+  font-weight: medium;
   font-size: 20px;
   letter-spacing: 0.02em;
 }
@@ -129,7 +133,6 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-
   height: 600px;
   padding: 20px;
 }
@@ -141,7 +144,7 @@ img {
 
 .section1 .button {
   padding: 10px 20px;
-
+  border-radius: 4px;
   font-size: 16px;
 }
 
